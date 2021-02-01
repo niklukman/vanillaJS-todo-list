@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <!-- <h1>Hello</h1> -->
+    <div class="container">
+      <h1>Task List</h1>
+      <form class="add">
+        <input
+          type="text"
+          name="add-task"
+          placeholder="New Task"
+          id="newtask"
+        />
+        <input type="submit" value="ADD TASK" id="addtask" />
+      </form>
+      <h2>Tasks</h2>
+      <div id="tasks"></div>
+      <form class="list">
+        <input
+          type="text"
+          name="task-list"
+          placeholder="Filter Tasks"
+          id="filter"
+        />
+        <input type="submit" value="CLEAR TASK" id="cleartask" />
+      </form>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,92 @@
+@import url(./normalize.css);
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* Chrome 9-, Safari 5-, iOS 4.2-, Android 3-, Blackberry 7- */
+  -webkit-box-sizing: border-box;
+
+  /* Firefox (desktop or Android) 28- */
+  -moz-box-sizing: border-box;
+
+  /* Firefox 29+, IE 8+, Chrome 10+, Safari 5.1+, Opera 9.5+, iOS 5+, Opera Mini Anything, Blackberry 10+, Android 4+ */
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+  line-height: 1.6em;
+}
+
+.container {
+  margin: 100px auto 100px auto;
+  width: 75%;
+  height: auto;
+  background-color: #fff;
+  border: rgba(158, 158, 158, 0.3) solid 2px;
+  border-radius: 4px;
+  padding: 50px 30px 50px 30px;
+}
+
+.container h1 {
+  margin: 0;
+  color: #464646;
+  font-size: 2.5rem;
+}
+
+.container h2 {
+  margin: 0;
+  color: #242424;
+  margin-top: 50px;
+  font-size: 1.5rem;
+}
+
+input[type='text'] {
+  border-bottom: rgba(158, 158, 158, 0.3) solid 2px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+}
+
+input[type='submit'] {
+  display: block;
+  border-radius: 3px;
+  padding: 8px 30px 8px 30px;
+}
+
+#addtask {
+  background-color: #1894e7;
+  border: rgba(158, 158, 158, 0.2) solid 2px;
+  color: #fff;
+}
+
+#cleartask {
+  background-color: #252a2a;
+  border: rgba(158, 158, 158, 0.2) solid 2px;
+  color: #fff;
+}
+
+input:focus {
+  outline: none;
+}
+
+#newtask:focus {
+  border-bottom: #1894e7 solid 2px;
+}
+
+#filter:focus {
+  border-bottom: #252a2a solid 2px;
+}
+
+#tasks {
+  /* margin-top: 20px;
+  margin-bottom: 20px; */
+  height: auto;
+  margin: auto;
+}
